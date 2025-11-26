@@ -23,8 +23,6 @@ public class BasicInvoiceGenerator {
         System.out.print("Enter Payment Terms: ");
         String paymentTerms = scanner.nextLine();
 
-        // The input prompts for Quantity and Rate are modified to show the values from myinvoice.png
-        // However, we will hardcode the values *after* the input to ensure the required calculations are met.
 
         System.out.println("\n--- Enter Product 1 (Surf Excel 5 kg) Information ---");
         System.out.print("Enter Quantity for Surf Excel 5 kg : ");
